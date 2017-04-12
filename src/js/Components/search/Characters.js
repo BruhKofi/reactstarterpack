@@ -9,7 +9,6 @@ export default class SearchResult extends React.Component {
 		return (
 			<div>
 			<h2>Your search Result</h2>
-			<h4>{this.props.question}</h4>
 			</div>
 		);
 	}
