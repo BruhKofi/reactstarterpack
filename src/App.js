@@ -1,23 +1,13 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-import main from './assets/img/tester.jpg'
+import ReactDOM from "react-dom"
+import {Router, Route, IndexRoute, hashHistory } from "react-router";
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-	        <img src={main} className="Header-Image" alt="cityfigaro"/>
-          <h2>Buy and Sell at SellerHolic</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+import Layout from "../src/js/Components/Layout";
 
-export default App;
+const app = document.getElementById('app');
+
+ReactDOM.render(
+  <Router history={hashHistory}>
+    <Route  path="/" component={Layout}></Route>
+  </Router>
+, app);
