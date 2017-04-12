@@ -12,7 +12,7 @@ export default class Layout extends React.Component {
 
 	render () {
 		return (
-			<div>
+			<div id="app">
 				<h1>{this.state.welcome}</h1>
 			</div>
 		);

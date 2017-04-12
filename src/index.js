@@ -1,10 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-import './index.css';
-import Layout from './js/Components/Layout';
+import ReactDOM from "react-dom"
+import { Router, Route, IndexRoute, hashHistory } from "react-router";
+
+import Layout from "../src/js/Components/Layout";
+
+const app = document.getElementById('app')
+
 
 ReactDOM.render(
-  <Layout />,
-  document.getElementById('root')
-);
+	<Router history={hashHistory}>
+		<Route path="/" component={Layout}></Route>
+	</Router>,
+ app);
