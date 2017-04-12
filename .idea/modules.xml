@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sellerholic.iml" filepath="$PROJECT_DIR$/.idea/sellerholic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/reactstarterpack.iml" filepath="$PROJECT_DIR$/.idea/reactstarterpack.iml" />
     </modules>
   </component>
 </project>
