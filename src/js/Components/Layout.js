@@ -19,4 +19,4 @@ export default class Layout extends React.Component {
 	}
 }
 
-//Note react routing and react history installed with npm install --save react-router and npm install --save history respectively
+//Note react rout<ing and react history installed with npm install --save react-router and npm install --save history respectively
