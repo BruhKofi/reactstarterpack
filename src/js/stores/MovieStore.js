@@ -20,3 +20,6 @@ class MovieStore extends EventEmitter {
 }
 
 
+const moviesStore = new MoviesStore;
+
+export default MovieStore;
