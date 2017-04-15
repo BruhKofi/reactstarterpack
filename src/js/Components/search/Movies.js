@@ -4,7 +4,7 @@
 
 import React from "react";
 
-export default class Search extends React.Component {
+export default class Movies extends React.Component {
 	createShoutOut(e){
 		const shoutOut = e.target.value;
 		this.props.createNewShoutOut(shoutOut);
