@@ -4,7 +4,7 @@
 
 import React from "react";
 
-export default class SearchResult extends React.Component {
+export default class Characters extends React.Component {
 	render() {
 		return (
 			<div>

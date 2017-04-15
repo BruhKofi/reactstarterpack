@@ -1,6 +1,6 @@
 import {EventEmitter } from "events";
 
-class MovieStore extends EventEmitter {
+class MoviesStore extends EventEmitter {
 	constructor() {
 	super();
 	this.movies = [
@@ -15,11 +15,12 @@ class MovieStore extends EventEmitter {
 	}
 
 	getMovies() {
-		return this.movies
+		return this.movies;
 	}
 }
 
 
-const moviesStore = new MoviesStore;
 
-export default MovieStore;
+const moviesStore = new MoviesStore();
+
+export default MoviesStore;
