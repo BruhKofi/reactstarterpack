@@ -13,4 +13,10 @@ class MovieStore extends EventEmitter {
 		{"title":"Ex Machine","release_date":"Yayın Tarihi","producer":"Yapımcı","director":"Yönetmen Adı","opening_crawl":"asd","episode_id":7},
 	];
 	}
+
+	getMovies() {
+		return this.movies
+	}
 }
+
+
