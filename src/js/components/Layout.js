@@ -3,8 +3,8 @@
  */
 import React from "react";
 
-import Movies from "./search/Movies";
-import SearchResult from "./search/Characters"
+import Movies from "./movies/Movies";
+import SearchResult from "./characters/Characters"
 
 export default class Layout extends React.Component {
 	constructor() {
